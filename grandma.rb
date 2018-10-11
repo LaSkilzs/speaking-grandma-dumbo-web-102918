@@ -1,5 +1,9 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(message)
+  if message != message.capitalize
+    return "HUH?! SPEAK UP, SONNY!"
+    END
+    
 end
 
 # Whatever you say to grandma, she should respond with
