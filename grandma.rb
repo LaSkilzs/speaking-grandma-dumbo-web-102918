@@ -2,7 +2,8 @@
 def speak_to_grandma(message)
   if message == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  elsif message == message.capitalize
+  end
+  if message == message.capitalize
     return "NO, NOT SINCE 1938!"
   end
     return "HUH?! SPEAK UP, SONNY!"
