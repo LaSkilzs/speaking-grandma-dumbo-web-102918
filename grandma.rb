@@ -2,7 +2,7 @@
 def speak_to_grandma(message)
   if message != message.capitalize
     return "HUH?! SPEAK UP, SONNY!"
-    END
+  end
     
 end
 
